@@ -1,0 +1,371 @@
+/*
+=============================
+GLOBAL STYLE
+=============================
+*/
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	background: #fff;
+	font-family: sans-serif;
+}
+/*
+=============================
+COMMON STYLING
+=============================
+*/
+a{
+	text-decoration: none;
+}
+.padding{
+	padding: 10px 40px;
+}
+.border-radius{
+	border-radius: 20px;
+}
+.border{
+	border: 2px solid white;
+}
+.text-color-white{
+	color: #fff;
+}
+.text-color-black{
+	color: #222;
+}
+.lineheight{
+	line-height: 50px;
+}
+.font-size4{
+	font-size: 4em;
+}
+.padding-right-left{
+	padding: 0px 140px;
+}
+.margin-top{
+	margin-top: 50px;
+}
+.lineheight75{
+	line-height: 75px;
+}
+.font-weight{
+	font-weight: normal;
+}
+.lineheight2{
+	line-height: 20px;
+}
+.font-size1{
+	font-size: 1.3em;
+}
+.font-size3{
+	font-size: 3em;
+}
+.line-height40{
+	line-height: 40px;
+}
+.font-size{
+	font-size: 2.3em;
+}
+.letter-spacing{
+	letter-spacing: 2.5px;
+}
+/*
+=============================
+HEADER Section
+=============================
+*/
+header{
+	width: 100%;
+	background: url(images/matthew-henry-kX9lb7LUDWc-unsplash.jpg) no-repeat center /cover;
+}
+.container{
+	max-width: 900px;
+	margin: auto;
+}
+.manu{
+	min-height: 126px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+.manu > :nth-child(1){
+	width: 190px;
+}
+.manu > :nth-child(1) img{
+	width: 190px;
+	display: block;
+}
+.manu > :nth-child(2){
+	width: 145px;
+}
+.manu > :nth-child(2) a{
+	color: #fff;
+	display: inline-block;
+}
+.contant{
+	min-height: 480px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.contant a{
+	margin-top: 40px;
+	background: #fff;
+}
+.contant a:hover{
+	color: #fff;
+	background: #666;
+}
+/*
+=============================
+DESCRIPTION
+=============================
+*/
+#Description{
+	width: 100%;
+	min-height: 630px;
+}
+.Des-contant{
+	min-height: 646px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+/*
+=============================
+THIRD SECTION
+=============================
+*/
+#section-3{
+	width: 100%;
+	min-height: 570px;
+}
+.main-all-3{
+	/*margin: auto;*/
+	max-width: 900px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.main-all-3 > :nth-child(1){
+	background: url(images/fernando-brasil-4Axb1V4gcjM-unsplash.jpg) no-repeat center /cover;
+	display: flex;
+	align-items: flex-end;
+	max-width: 485px;
+	height: 500px;
+}
+.main-all-3 > :nth-child(1) > :nth-child(1){
+	text-align: center;
+}
+.main-all-3 > :nth-child(1) > :nth-child(1) h1{
+	line-height: 100px;
+}
+.main-all-3 > :nth-child(1) > :nth-child(1) p{
+	text-align: left;
+	line-height: 20px;
+	padding: 0px 40px;
+	padding-bottom: 70px;
+}
+.main-all-3 > :nth-child(2){
+	width: 380px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	min-height: 500px;
+}
+.main-all-3 > :nth-child(2) > :nth-child(1){
+	min-height: 235px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	background: #222;
+}
+.main-all-3 > :nth-child(2) > :nth-child(1) > :nth-child(1){
+	background: url(images/IMG_3084.png) no-repeat center/contain;
+	width: 175px;
+	height: 190px;
+	transform: rotate(90deg);
+}
+.main-all-3 > :nth-child(2) > :nth-child(1) > :nth-child(2){
+	width: 138px;
+	padding-left: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: left;
+}
+.main-all-3 > :nth-child(2) > :nth-child(2){
+	background: url(images/Untitled-1.jpg) no-repeat center center/cover;
+	padding-left: 25px;
+	padding-top: 25px; 
+	min-height: 235px;
+}
+
+/*
+=============================
+FOURTH SECTION
+=============================
+*/
+#section-4{
+	width: 100%;
+}
+#main-all{
+	min-height: 1000px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+#main-all > :nth-child(1){
+	max-width: 900px;
+	min-height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+#main-all > :nth-child(1) .main{
+	max-width: 900px;
+	min-height: 230px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+#main-all > :nth-child(1) .main .contant-all{
+	max-width: 490px;
+	text-align: left;
+}
+#main-all > :nth-child(1) .main .contant-all h1{
+	line-height: 45px;
+}
+#main-all > :nth-child(1) .main .contant-all p{
+	padding: 30px 0px;
+}
+#main-all > :nth-child(1) .main .img{
+	background: url(images/alex-knight-j4uuKnN43_M-unsplash.jpg) no-repeat left /cover;
+	width: 250px;
+	height: 230px;
+}
+#main-all > :nth-child(1) .main .img2{
+	background: url(images/emily-morter-8xAA0f9yQnE-unsplash.jpg) no-repeat left /cover;
+	width: 250px;
+	height: 230px;
+}
+#main-all > :nth-child(2){
+	min-height: 380px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+#main-all > :nth-child(2) > :nth-child(1){
+	background: #222;
+	border:1px solid black;
+	min-height: 180px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	line-height: 35px;
+}
+#main-all > :nth-child(2) > :nth-child(2){
+	min-height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#main-all > :nth-child(2) > :nth-child(2) a{
+	background: #222;
+	padding: 10px 30px;
+}
+#main-all > :nth-child(2) > :nth-child(2) a:hover{
+	background: #666;
+	color: #fff;
+}
+/*
+=============================
+FOOTER
+=============================
+*/
+footer{
+	background: #020202;
+	width: 100%;
+}
+#contant{
+	max-width: 900px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+#contant > :nth-child(1){
+	padding: 80px 0px;
+}
+#contant > :nth-child(2){
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+#contant > :nth-child(2) a{
+	margin: 20px;
+	padding: 8px 40px;
+	background: #fff;
+	color: #020202; 
+}
+#contant > :nth-child(2) a:hover{
+	background: #666;
+	color: #fff;
+}
+.manu-footer{
+	max-width: 900px;
+	min-height: 200px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 100px 0px;
+}
+.manu-footeru > :nth-child(1){
+	width: 160px;
+}
+.manu-footer > :nth-child(1) img{
+	width: 160px;
+	display: block;
+}
+.manu-footer > :nth-child(2){
+	padding-right: 60px;
+	width: 140px;
+}
+.manu-footer > :nth-child(2) ul{
+	list-style: none;
+	text-align: left;
+}
+.manu-footer > :nth-child(2) ul li{
+	margin-bottom: 15px;
+}
+.manu-footer > :nth-child(2) ul li a{
+	color: #fff;
+}
+.manu-footer > :nth-child(3){
+	display: flex;
+	width: 135px;
+}
+.manu-footer > :nth-child(3) img{
+	height: 30px;
+	width: 30px;
+}
+.manu-footer > :nth-child(3) a{
+	margin-left: 15px;
+	background: #fff;
+	height: 30px;
+}
+#contant > :nth-child(4){
+	padding-bottom: 60px;
+	text-align: center;
+}
