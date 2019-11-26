@@ -78,11 +78,16 @@ HEADER Section
 */
 header{
 	width: 100%;
+	height: 70vh;
 	background: url(images/matthew-henry-kX9lb7LUDWc-unsplash.jpg) no-repeat center /cover;
 }
-.container{
-	max-width: 900px;
+.container-header{
 	margin: auto;
+	max-width: 900px; 
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 .manu{
 	min-height: 126px;
@@ -99,27 +104,41 @@ header{
 	display: block;
 }
 .manu > :nth-child(2){
-	width: 145px;
+	width: 105px;
+	min-height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: 0.3s linear;
 }
-.manu > :nth-child(2) a{
-	color: #fff;
-	display: inline-block;
+.manu > :nth-child(2):hover{
+	transform: scale(1.1);
 }
 .contant{
 	min-height: 480px;
 	display: flex;
-	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+}
+.contant > :nth-child(1){
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 	text-align: center;
+	align-items: center;
 }
 .contant a{
-	margin-top: 40px;
 	background: #fff;
+	transition: 0.3s linear;
+	width: 142px;
+	text-align: center;
 }
 .contant a:hover{
 	color: #fff;
-	background: #666;
+	background: black;
+	border: 1.5px solid #fff;
+	transform: scale(1.1);
 }
 /*
 =============================
@@ -129,6 +148,10 @@ DESCRIPTION
 #Description{
 	width: 100%;
 	min-height: 630px;
+}
+.container{
+	max-width: 900px;
+	margin: auto;
 }
 .Des-contant{
 	min-height: 646px;
@@ -148,7 +171,6 @@ THIRD SECTION
 	min-height: 570px;
 }
 .main-all-3{
-	/*margin: auto;*/
 	max-width: 900px;
 	display: flex;
 	flex-wrap: wrap;
@@ -249,6 +271,10 @@ FOURTH SECTION
 #main-all > :nth-child(1) .main .contant-all p{
 	padding: 30px 0px;
 }
+#main-all > :nth-child(1) .main .contant-all a{
+	display: flex;
+	align-items: center;
+}
 #main-all > :nth-child(1) .main .img{
 	background: url(images/alex-knight-j4uuKnN43_M-unsplash.jpg) no-repeat left /cover;
 	width: 250px;
@@ -285,10 +311,13 @@ FOURTH SECTION
 #main-all > :nth-child(2) > :nth-child(2) a{
 	background: #222;
 	padding: 10px 30px;
+	transition: 0.3s linear;
 }
 #main-all > :nth-child(2) > :nth-child(2) a:hover{
-	background: #666;
-	color: #fff;
+	background: #fff;
+	color: black;
+	border: 1.5px solid black;
+	transform: scale(1.1);
 }
 /*
 =============================
@@ -312,16 +341,20 @@ footer{
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
+	min-height: 76px;
+	align-items: center;
 }
 #contant > :nth-child(2) a{
-	margin: 20px;
+	margin: 0px 20px;
 	padding: 8px 40px;
 	background: #fff;
-	color: #020202; 
+	transition: 0.3s linear; 
 }
 #contant > :nth-child(2) a:hover{
-	background: #666;
+	background: black;
 	color: #fff;
+	border: 1.5px solid #fff;
+	transform: scale(1.1);
 }
 .manu-footer{
 	max-width: 900px;
@@ -356,14 +389,15 @@ footer{
 	display: flex;
 	width: 135px;
 }
-.manu-footer > :nth-child(3) img{
-	height: 30px;
-	width: 30px;
+.manu-footer > :nth-child(3) i{
+	transition: 0.2s linear;
+	font-size: 23px; 
+}
+.manu-footer > :nth-child(3) i:hover{
+	transform: scale(1.2);
 }
 .manu-footer > :nth-child(3) a{
 	margin-left: 15px;
-	background: #fff;
-	height: 30px;
 }
 #contant > :nth-child(4){
 	padding-bottom: 60px;
