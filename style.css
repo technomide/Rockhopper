@@ -147,7 +147,7 @@ DESCRIPTION
 */
 #Description{
 	width: 100%;
-	min-height: 630px;
+	min-height: 646px;
 }
 .container{
 	max-width: 900px;
@@ -169,6 +169,7 @@ THIRD SECTION
 #section-3{
 	width: 100%;
 	min-height: 570px;
+
 }
 .main-all-3{
 	max-width: 900px;
@@ -258,7 +259,6 @@ FOURTH SECTION
 	max-width: 900px;
 	min-height: 230px;
 	display: flex;
-	flex-wrap: wrap;
 	justify-content: space-between;
 }
 #main-all > :nth-child(1) .main .contant-all{
@@ -364,7 +364,7 @@ footer{
 	justify-content: space-between;
 	padding: 100px 0px;
 }
-.manu-footeru > :nth-child(1){
+.manu-footer > :nth-child(1){
 	width: 160px;
 }
 .manu-footer > :nth-child(1) img{
@@ -372,7 +372,6 @@ footer{
 	display: block;
 }
 .manu-footer > :nth-child(2){
-	padding-right: 60px;
 	width: 140px;
 }
 .manu-footer > :nth-child(2) ul{

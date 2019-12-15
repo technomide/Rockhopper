@@ -1,0 +1,206 @@
+@import url("./style.css");
+/*
+==========================
+ haeder 
+=========================
+ */
+header{
+    height: 360px;
+}
+.manu{
+    min-height: 70px;
+    padding: 0px 5px;
+}
+.manu > :nth-child(1) img{
+    width: 130px;
+}
+.manu > :nth-child(2){
+    min-height: 30px;
+}
+.container-header{
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+}
+.contant{
+    min-height: 70px;
+}
+.contant h1{
+    line-height: 20px;
+    font-size: 1em;
+}
+.contant > :nth-child(1){
+    height: 110px;
+}
+.contant > :nth-child(1) a{
+    padding: 7px 5px;
+    width: 110px;
+}
+/*
+=========================
+ Second Section 
+ ========================
+*/
+#Description{
+    min-height: 270px;
+    display: flex;
+    justify-content: center;
+}
+.Des-contant{
+    min-height: 80px;
+}
+.Des-contant h1{
+    line-height: 30px;
+    font-size: 2em;
+}
+.Des-contant h4{
+    line-height: 20px;
+    padding: 0px 5px;
+    margin-top: 8px;
+}
+/* 
+=========================
+Third Section
+=========================
+ */
+#section-3{
+    flex-direction: column;
+    margin: 0px 0px 0px 0px;
+}
+#section-3 .main-all-3 > :nth-child(1){
+    width: 100%;
+    height: 235px;
+    margin-bottom: 12px;
+}
+.main-all-3 > :nth-child(1) > :nth-child(1) h1{
+    line-height: 60px;
+    font-size: 2em;
+    font-weight: normal;
+}
+.main-all-3 > :nth-child(1) > :nth-child(1) p{
+    text-align: center;
+	line-height: 20px;
+	padding: 0px 20px;
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+.main-all-3 > :nth-child(2){
+    min-height: 460px;
+    width: 100%;
+}
+.main-all-3 > :nth-child(2) > :nth-child(1){
+    height: 235px;
+}
+.main-all-3 > :nth-child(2) > :nth-child(2){
+    height: 235px;
+}
+.main-all-3 > :nth-child(2) h2{
+    font-size: 1.4em;
+    font-weight: normal;
+    line-height: 35px;
+}
+
+/* 
+=============================
+Fourth Section
+=============================
+ */
+#section-4{
+    padding: 80px 0px 60px 0px;
+    background: #eeeeee;
+}
+#main-all > :nth-child(1) .main h1{
+    font-size: 1.8em;
+    line-height: 10px;
+}
+#main-all > :nth-child(1) .main{
+    display: flex;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-bottom: 25px;
+}
+#main-all > :nth-child(1) .main .contant-all{
+    min-height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+#main-all > :nth-child(1) .main .contant-all h1{
+    line-height: 31px;
+    padding-top: 5px;
+}
+#main-all > :nth-child(1) .main .contant-all p{
+    padding: 0px;
+}
+#main-all > :nth-child(2){
+    min-height: 250px;
+}
+#main-all > :nth-child(2) h3{
+    font-weight: normal;
+}
+#main-all > :nth-child(2) > :nth-child(2){
+    min-height: 80px;
+}
+#main-all > :nth-child(2) > :nth-child(2) a{
+    padding: 7px 25px;
+}
+#main-all > :nth-child(1) .main .img{
+    width: 80%;
+}
+#main-all > :nth-child(1) .main .img2{
+    width: 80%;
+}
+
+/*
+===================================
+footer
+===================================
+ */
+#contant > :nth-child(1){
+    padding: 30px;
+}
+#contant > :nth-child(1) h1{
+    font-size: 1em;
+}
+#contant > :nth-child(2){
+    min-height: 50px;
+}
+.manu-footer{
+    width: 100%;
+    min-height: 380px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px;
+}
+.manu-footer > :nth-child(2) ul{
+    text-align: center;
+}
+.manu-footer > :nth-child(2){
+    padding: 0px;
+}
+.manu-footer > :nth-child(1){
+    align-items: center;
+}
+.manu-footer > :nth-child(1) img{
+    width: 140px;
+}
+.manu-footer > :nth-child(3){
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.manu-footer > :nth-child(3) a{
+    margin-right: 10px;
+    margin-left: 0px;
+}
+#contant > :nth-child(2) a{
+    padding: 5px 25px;
+}
+#contant > :nth-child(4) h4{
+    font-size: 12px;
+}

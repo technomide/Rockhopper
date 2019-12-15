@@ -1,0 +1,54 @@
+@import url("./style.css");
+.container{
+    max-width: 735px;
+}
+/* 
+=======================
+Header
+=======================
+ */
+header{
+    height: 556px;
+}
+.manu{
+    min-height: 99px;
+    padding: 0px 15px;
+}
+.contant{
+    min-height: 431px;
+}
+/* 
+========================
+Section Third
+========================
+ */
+ #section-3 .main-all-3 > :nth-child(1){
+     width: 353px;
+ }
+.main-all-3 > :nth-child(2){
+    width: 348px;
+}
+
+#section-3 .main-all-3 > :nth-child(1){
+    width: 371px;
+}
+/* 
+========================
+Footer
+========================
+*/
+#contant{
+    max-width: 735px;
+}
+.manu-footer{
+    max-width: 100%;
+}
+.manu-footer > :nth-child(3) a{
+    margin: 0px 12px;
+}
+#contant > :nth-child(1) h1{
+    font-size: 1.7em;
+}
+.manu-footer > :nth-child(2) ul{
+    text-align: center;
+}
