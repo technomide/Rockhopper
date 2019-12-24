@@ -78,7 +78,7 @@ HEADER Section
 */
 header{
 	width: 100%;
-	height: 70vh;
+	/* height: 70vh; */
 	background: url(images/matthew-henry-kX9lb7LUDWc-unsplash.jpg) no-repeat center /cover;
 }
 .container-header{
